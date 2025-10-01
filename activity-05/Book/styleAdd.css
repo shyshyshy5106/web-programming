@@ -1,0 +1,89 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #751717;
+    min-height: 100vh;
+}
+
+.title {
+    background-color: #f0cbcb;
+    padding: 20px 0;
+    border-radius: 0px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+}
+
+.asterisk{
+    font-size: 12px;
+    font-weight: 5px;
+    color: #978080;
+}
+
+.form-container {
+    max-width: 500px;
+    background-color: #f9eaea;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px auto;
+    color: black;
+}   
+
+.anti-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+input[type="submit"],
+button a {
+    background: #702f26;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="submit"]:hover,
+button a:hover {
+    background: #f7a1a1;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select {
+    outline:none;
+    border-color: #702f26;
+    box-shadow: 0 0 5px rgba(112, 47, 38, 0.5);
+}
+
+.csspurposes {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    width: 100%;
+}
